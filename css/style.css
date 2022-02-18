@@ -1,0 +1,303 @@
+html {
+box-sizing: border-box;
+
+}
+
+*,
+*::before,
+*::after { 
+    box-sizing: inherit;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Arial" , sans-serif;
+    font-size:16px;
+    line-height: 1.5;
+}
+
+
+
+    a {
+        text-decoration: none;
+    }
+
+
+
+.carousel-inner{
+    height: 400px;
+}
+
+ 
+/* 
+Class to apply on scroll with JS* */
+/* #fixed{
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 30;
+    z-index: 20;
+   background-color:white ;
+} */
+.fixed{
+    padding: 10px 16px;
+    background: white;
+    color: #f1f1f1;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  .sticky + .consol {
+    padding-top: 102px;
+  }
+
+
+
+
+i{
+    font-size: 30px;
+     color: teal;
+
+}
+li{
+    list-style-type: none; 
+    display: inline-block;
+}
+ul{
+    padding-left: 0;
+}
+header{
+    background-color: rgb(64, 66, 68);
+    min-height: 70px;
+}
+/* header li{
+    padding-right: 10px;
+    
+} */
+.tab1 ul li i{
+    padding-right: 3px;
+    font-size: 22px;
+    color: rgb(131, 130, 130);
+
+
+
+}
+.tab1 ul li a{
+    text-decoration: none;
+    padding: 0 8px;
+    color: rgb(131, 130, 130);
+    font-size: 18px;
+    transition: 0.3s;
+
+}
+.tab1 a:hover{
+    color: rgb(5, 231, 17);
+    transition: 0.5s;
+
+
+}
+.icon ul li{
+    padding-right: 15px;
+
+    text-align: center;
+    padding-left: 10px;
+    color: rgb(131, 130, 130);
+
+
+
+}
+.ruyhat ul li a{
+text-decoration: none;
+font-size: 18px;
+color: rgb(131, 130, 130);
+font-family: cursive;
+padding-left: 50px;
+transition: 0.3s;
+}
+.ruyhat a:hover{
+    font-size: 18px;
+    color: rgb(5, 231, 17);
+    transition: 0.5s;
+}
+.carousel-inner {
+    height: 600px;
+ }
+
+.icon i{
+    color: rgb(131, 130, 130);
+    font-size: 22px;
+    transition: 0.7s;
+}
+.icon i:hover{
+    color: rgb(5, 231, 17);
+    font-size: 22px;
+    transition: 0.5s;
+}
+.xizmat{
+   
+    background-color: rgb(249, 252, 252);
+} 
+.tabel ul li{
+font-family: monospace;
+color: rgb(117, 112, 112);
+
+}
+.tabel-a a{
+    font-family: monospace;
+
+    padding: 15px; 
+    text-decoration: none;
+    font-size: 24px;
+    color:  rgb(117, 112, 112);
+    transition: 0.7s;
+
+}
+.tabel-a a:hover{
+
+    padding: 15px; 
+    font-size: 24px;
+    color:  rgb(104, 216, 76);
+    transition: 0.5s;
+
+}
+.tabel ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(117, 112, 112);
+    padding: 15px;
+    transition: 0.7s;
+
+    }
+    .tabel ul li a:hover{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(46, 43, 43);
+    padding: 15px;
+    transition: 0.7s;
+
+
+    }
+.xizmat .card{
+    height: 380px;
+    border: 0;
+}
+
+.aylana{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: darkblue;
+    margin: 30px auto;
+}
+.icons ul li i{
+    font-size: 20px;
+    color: rgb(131, 130, 130);
+    height: 60px;
+    width: 60px;
+    
+
+}
+.icons ul li {
+    height: 60px;
+    width: 60px;
+    padding: 20px 20px;
+    border-radius: 50%;
+    transition: .7s;
+
+
+}
+
+.icons li:hover{
+    transition: 0.5s;
+    height: 60px;
+    border-radius: 50%;
+    width: 60px;
+    background-color: rgb(28, 151, 93);
+}
+.icons i:hover{
+    color: white;
+    
+}
+.icons ul{
+    padding-right: 10px;
+}
+.xizmat p{
+    text-align: center;
+    padding-top: 8px;
+}
+.aylana i {
+    padding-left: 15px;
+    margin-top: 15px;
+    color: white;
+}
+.shad .card:hover{
+    box-shadow: wheat;
+}
+
+.payme{
+   
+    height: 140px;
+    width: 100%;
+    background-color: #fff;
+    /* text-align: center; */
+}
+.chiziq{
+    height: 5px;
+    margin: 40px auto;
+    background-color: rgb(100, 223, 155);
+    width: 90px;
+    border-radius: 15%;
+   
+}
+.bg-image{
+    background-image: url(../imag/rasm.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    
+}
+.mobel{
+    min-height: 200px;
+    background-color: white;
+}
+.aloqa{
+    height: 400px;
+    background-color: rgb(73, 73, 73);
+}
+.aloqchiziq{
+    width: 50px;
+    height: 5px;
+    background-color: rgb(45, 222, 7);
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.aloqtizim  ul li {
+    display: block;
+    padding-bottom: 10px;
+    padding-left: 48px;
+    transition: 0.5s;
+
+}
+
+.aloqtizim  ul li a{
+    text-decoration: none;    
+    color:rgb(190, 189, 189) ;
+}
+.aloqtizim  a:hover{
+    transition: 0.7s;
+    color:rgb(5, 228, 91) ;
+}
+
+
+
+.end{
+    background-color: black;
+    text-align: center;
+    height: 120px;
+
+
+}
